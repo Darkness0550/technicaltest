@@ -16,9 +16,10 @@ interface OrderProduct {
 }
 
 const availableProducts: Product[] = [
-  { id: 1, name: "Milk", unitPrice: 10.0 },
-  { id: 2, name: "Bread", unitPrice: 5.0 },
-  { id: 3, name: "Cheese", unitPrice: 15.0 },
+  { id: 1, name: "Azucar", unitPrice: 2.80 },
+  { id: 2, name: "Anchor", unitPrice: 38.90 },
+  { id: 3, name: "Mortadela", unitPrice: 2.50 },
+  { id: 4, name: "Alitas", unitPrice: 8.90 },
 ];
 
 export const OrderForm = () => {
