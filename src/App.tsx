@@ -10,7 +10,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
-                <Route path="my-orders" element={<MyOrders />} />
+        <Route path="my-orders" element={<MyOrders />} />
         <Route path="add-order/:id" element={<OrderForm />} />
         <Route path="products" element={<ProductManagement />} />
      </Routes>
